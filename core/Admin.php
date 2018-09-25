@@ -9,6 +9,6 @@ class Admin
 
     public function initMenu()
     {
-
+        add_menu_page('W', '达不溜', 'administrator', 'w_menu', '', 'dashicons-wordpress', '46.66');
     }
 }
